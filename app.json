@@ -1,0 +1,90 @@
+{
+  "name": "MATRIX",
+  "description": "مرحبا بكم في سورس ماتركس | @VV3XE",
+  "logo": "",
+  "keywords": [
+    "plugin",
+    "modular",
+    "productivity"
+  ],
+  "repository": "https://github.com/JMTHON-AR/packub/",
+  "website": "#TODO",
+  "success_url": "#TODO",
+  "env": {
+    "ALIVE_NAME": {
+      "description": "ضع هنا اسمك",
+      "value": ""
+    },
+    "APP_ID": {
+      "description": "اكتب هنا الايبي ايدي",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "اكتب هنا ألايبي هاش",
+      "value": ""
+    },
+    "STRING_SESSION": {
+      "description": "ضع هنا كود تيرمكس",
+      "value": ""
+    },
+    "TG_BOT_USERNAME": {
+      "description": "ضع هنا معرف البوت بدون @",
+      "value": ""
+    },
+    "TG_BOT_TOKEN": {
+      "description": "ضع هنا توكن البوت الخاص بك",
+      "value": ""
+    },
+    "COMMAND_HAND_LER": {
+      "description": "لا تغيره",
+      "value": ".",
+      "required": true
+    },
+    "ENV": {
+      "description": "أتركة كما هوة",
+      "value": "ANYTHING",
+      "required": false
+    },
+    "HEROKU_API_KEY": {
+      "description": "هنا ضع ايبي كي هيروكو https://dashboard.heroku.com/account",
+      "value": "",
+      "required": true
+    },
+    "HEROKU_APP_NAME": {
+      "description": "اول اسم وضعته اسم التطبيق",
+      "value": "",
+      "required": true
+    },
+    "TZ": {
+      "description": "موقعك الحالي",
+      "value": "Asia/Baghdad",
+      "required": true
+    },
+    "UPSTREAM_REPO": {
+      "description": "رمز السورس لا تغيره",
+      "value": "MATRIX",
+      "required": true
+    }
+  },
+  "addons": [{
+    "plan": "heroku-postgresql",
+    "options": {
+      "version": "12"
+    }
+  }],
+  "buildpacks": [{
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
+  },{
+    "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
+  },{
+    "url": "https://github.com/heroku/heroku-buildpack-apt.git"
+  },{
+    "url": "https://github.com/chrismytton/heroku-buildpack-jq"
+  },{
+    "url": "heroku/python"
+  }]
+}
