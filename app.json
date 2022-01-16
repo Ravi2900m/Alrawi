@@ -1,0 +1,90 @@
+{
+  "الاسم" : " ماتريكس " ،
+  "description" : " مرحبا بكم في سورس ماتركس | @ VV3XE" ،
+  "الشعار" : " " ،
+  "الكلمات الرئيسية" : [
+    " مكون إضافي " ،
+    " معياري " ،
+    " الإنتاجية "
+  ] ،
+  "المستودع" : " https://github.com/Ravi2900m/Alrawi/ " ،
+  "الموقع" : " #TODO " ،
+  "Success_url" : " #TODO " ،
+  "البيئة" : {
+    "ALIVE_NAME" : {
+      "الوصف" : " ضع هنا اسمك " ،
+      "القيمة" : " "
+    } ،
+    "APP_ID" : {
+      "الوصف" : " اكتب هنا الايبي ايدي " ،
+      "القيمة" : " "
+    } ،
+    "API_HASH" : {
+      "الوصف" : " اكتب هنا ألايبي هاش " ،
+      "القيمة" : " "
+    } ،
+    "STRING_SESSION" : {
+      "الوصف" : " ضع هنا كود تيرمكس " ،
+      "القيمة" : " "
+    } ،
+    "TG_BOT_USERNAME" : {
+      "description" : " ضع هنا معرف البوت بدون @ " ،
+      "القيمة" : " "
+    } ،
+    "TG_BOT_TOKEN" : {
+      "الوصف" : " ضع هنا توكن البوت الخاص بك " ،
+      "القيمة" : " "
+    } ،
+    "COMMAND_HAND_LER" : {
+      "الوصف" : " لا تغيره " ،
+      "القيمة" : " . " ،
+      "مطلوب" : صحيح
+    } ،
+    "ENV" : {
+      "الوصف" : " أتركة كما هوة " ،
+      "القيمة" : " أي شيء " ،
+      "مطلوب" : خطأ
+    } ،
+    "HEROKU_API_KEY" : {
+      "الوصف" : " هنا ضع ايبي كي هيروكو https://dashboard.heroku.com/account " ،
+      "القيمة" : " " ،
+      "مطلوب" : صحيح
+    } ،
+    "HEROKU_APP_NAME" : {
+      "الوصف" : " اول اسم وضعته اسم التطبيق " ،
+      "القيمة" : " " ،
+      "مطلوب" : صحيح
+    } ،
+    "TZ" : {
+      "الوصف" : " موقعك الحالي " ،
+      "القيمة" : " آسيا / بغداد " ،
+      "مطلوب" : صحيح
+    } ،
+    "UPSTREAM_REPO" : {
+      "الوصف" : " رمز السورس لا تغيره " ،
+      "القيمة" : " ماتريكس " ،
+      "مطلوب" : صحيح
+    }
+  } ،
+  "الإضافات" : [{
+    "خطة" : " heroku-postgresql " ،
+    "خيارات" : {
+      "الإصدار" : " 12 "
+    }
+  }] ،
+  "buildpacks" : [{
+    "url" : " https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest "
+  } ، {
+    "url" : " https://github.com/heroku/heroku-buildpack-google-chrome "
+  } ، {
+    "url" : " https://github.com/heroku/heroku-buildpack-chromedriver "
+  } ، {
+    "url" : " https://github.com/opendoor-labs/heroku-buildpack-p7zip "
+  } ، {
+    "url" : " https://github.com/heroku/heroku-buildpack-apt.git "
+  } ، {
+    "url" : " https://github.com/chrismytton/heroku-buildpack-jq "
+  } ، {
+    "url" : " heroku / python "
+  }]
+}
