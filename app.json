@@ -1,90 +1,90 @@
 {
-  "name": "MATRIX",
-  "description": "مرحبا بكم في سورس ماتركس | @VV3XE",
-  "logo": "",
-  "keywords": [
-    "plugin",
-    "modular",
-    "productivity"
-  ],
-  "repository": "https://github.com/JMTHON-AR/packub/",
-  "website": "#TODO",
-  "success_url": "#TODO",
-  "env": {
-    "ALIVE_NAME": {
-      "description": "ضع هنا اسمك",
-      "value": ""
-    },
-    "APP_ID": {
-      "description": "اكتب هنا الايبي ايدي",
-      "value": ""
-    },
-    "API_HASH": {
-      "description": "اكتب هنا ألايبي هاش",
-      "value": ""
-    },
-    "STRING_SESSION": {
-      "description": "ضع هنا كود تيرمكس",
-      "value": ""
-    },
-    "TG_BOT_USERNAME": {
-      "description": "ضع هنا معرف البوت بدون @",
-      "value": ""
-    },
-    "TG_BOT_TOKEN": {
-      "description": "ضع هنا توكن البوت الخاص بك",
-      "value": ""
-    },
-    "COMMAND_HAND_LER": {
-      "description": "لا تغيره",
-      "value": ".",
-      "required": true
-    },
-    "ENV": {
-      "description": "أتركة كما هوة",
-      "value": "ANYTHING",
-      "required": false
-    },
-    "HEROKU_API_KEY": {
-      "description": "هنا ضع ايبي كي هيروكو https://dashboard.heroku.com/account",
-      "value": "",
-      "required": true
-    },
-    "HEROKU_APP_NAME": {
-      "description": "اول اسم وضعته اسم التطبيق",
-      "value": "",
-      "required": true
-    },
-    "TZ": {
-      "description": "موقعك الحالي",
-      "value": "Asia/Baghdad",
-      "required": true
-    },
-    "UPSTREAM_REPO": {
-      "description": "رمز السورس لا تغيره",
-      "value": "MATRIX",
-      "required": true
+  "الاسم" : " ماتريكس " ،
+  "description" : " مرحبا بكم في سورس ماتركس | @ VV3XE " ،
+  "الشعار" : " " ،
+  "الكلمات الرئيسية" : [
+    " مكون إضافي " ،
+    " معياري " ،
+    " الإنتاجية "
+  ] ،
+  "المستودع" : " https://github.com/Ravi2900m/Alrawi/tree/main " ،
+  "الموقع" : " #TODO " ،
+  "Success_url" : " #TODO " ،
+  "البيئة" : {
+    "ALIVE_NAME" : {
+      "الوصف" : " ضع هنا اسمك " ،
+      "القيمة" : " "
+    } ،
+    "APP_ID" : {
+      "الوصف" : " اكتب هنا الايبي ايدي " ،
+      "القيمة" : " "
+    } ،
+    "API_HASH" : {
+      "الوصف" : " اكتب هنا ألايبي هاش " ،
+      "القيمة" : " "
+    } ،
+    "STRING_SESSION" : {
+      "الوصف" : " ضع هنا كود تيرمكس " ،
+      "القيمة" : " "
+    } ،
+    "TG_BOT_USERNAME" : {
+      "description" : " ضع هنا معرف البوت بدون @ " ،
+      "القيمة" : " "
+    } ،
+    "TG_BOT_TOKEN" : {
+      "الوصف" : " ضع هنا توكن البوت الخاص بك " ،
+      "القيمة" : " "
+    } ،
+    "COMMAND_HAND_LER" : {
+      "الوصف" : " لا تغيره " ،
+      "القيمة" : " . " ،
+      "مطلوب" : صحيح
+    } ،
+    "ENV" : {
+      "الوصف" : " أتركة كما هوة " ،
+      "القيمة" : " أي شيء " ،
+      "مطلوب" : خطأ
+    } ،
+    "HEROKU_API_KEY" : {
+      "الوصف" : " هنا ضع ايبي كي هيروكو https://dashboard.heroku.com/account " ،
+      "القيمة" : " " ،
+      "مطلوب" : صحيح
+    } ،
+    "HEROKU_APP_NAME" : {
+      "الوصف" : " اول اسم وضعته اسم التطبيق " ،
+      "القيمة" : " " ،
+      "مطلوب" : صحيح
+    } ،
+    "TZ" : {
+      "الوصف" : " موقعك الحالي " ،
+      "القيمة" : " آسيا / بغداد " ،
+      "مطلوب" : صحيح
+    } ،
+    "UPSTREAM_REPO" : {
+      "الوصف" : " رمز السورس لا تغيره " ،
+      "القيمة" : " ماتريكس " ،
+      "مطلوب" : صحيح
     }
-  },
-  "addons": [{
-    "plan": "heroku-postgresql",
-    "options": {
-      "version": "12"
+  } ،
+  "الإضافات" : [{
+    "خطة" : " heroku-postgresql " ،
+    "خيارات" : {
+      "الإصدار" : " 12 "
     }
-  }],
-  "buildpacks": [{
-    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-  },{
-    "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
-  },{
-    "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
-  },{
-    "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
-  },{
-    "url": "https://github.com/heroku/heroku-buildpack-apt.git"
-  },{
-    "url": "https://github.com/chrismytton/heroku-buildpack-jq"
-  },{
-    "url": "heroku/python"
+  }] ،
+  "buildpacks" : [{
+    "url" : " https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest "
+  } ، {
+    "url" : " https://github.com/heroku/heroku-buildpack-google-chrome "
+  } ، {
+    "url" : " https://github.com/heroku/heroku-buildpack-chromedriver "
+  } ، {
+    "url" : " https://github.com/opendoor-labs/heroku-buildpack-p7zip "
+  } ، {
+    "url" : " https://github.com/heroku/heroku-buildpack-apt.git "
+  } ، {
+    "url" : " https://github.com/chrismytton/heroku-buildpack-jq "
+  } ، {
+    "url" : " heroku / python "
   }]
 }
